@@ -7,10 +7,10 @@ const checkbox4 = document.getElementById('checkbox4');
 
 
 const switchChecker = (...arr) => {
-	checkbox1.checked = arr[0];
-	checkbox2.checked = arr[1];
-	checkbox3.checked = arr[2];
-	checkbox4.checked = arr[3];
+	checkbox1.checked = !!arr[0];
+	checkbox2.checked = !!arr[1];
+	checkbox3.checked = !!arr[2];
+	checkbox4.checked = !!arr[3];
 }
 
 const changeStyles = (token) => {
